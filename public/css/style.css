@@ -1,0 +1,36 @@
+.card-title{
+    font-size:15px;
+    height: 80px;
+    border-bottom: 4px solid lightskyblue;
+    overflow: auto;
+}
+.source{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid lightskyblue;
+}
+.source p{
+    font-size: 13px;
+    
+}
+.card-text{
+    font-size: 15px;
+    height: 200px;
+    overflow: auto;
+}
+@media only screen and (min-width:0) and (max-width:576px) {
+    .card-title{
+        height: 50px;
+    }
+    .card-text{
+        height: 95px;
+    }
+}
+@media only screen and (min-width:577) and (max-width:768px) {
+    .card-title{
+        height: 60px;
+    }
+    .card-text{
+        height: 80px;
+    }
+}
